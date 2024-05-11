@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+html,body,.container{
+    height: 100%;
+    width: 100%;
+    font-family: "ABeeZee", sans-serif; 
+    background-color: #000000;
+}
+.container{
+    color : #FFFFFF;
+    padding: 20px 85px 20px 85px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a {
+    text-decoration: none;
+    color : #FFFFFF;
+    font-size: 18px;
+}
+
+.link{
+    display: flex;
+    gap: 29px;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+
+.dabba{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dabba1 h1 {
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+.dabba1 p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #B9B9B9;
+}
+
+.design{
+    margin-top: 10px;
+}
+
+
+.primary-color{
+    color: #CBFE47;
+}
+
+.right-font{
+    font-family: 'Netron', sans-serif;
+    font-size: 85px ;
+}
+
+.right-side-p-color{
+    font-size: 13px;
+    color: #B9B9B9;
+}
+
+
+.dabba2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-btn{
+    margin-top: 20px;
+    padding: 18px 25px;
+    border-radius: 15px;
+    background-color: #CBFE47;
+    font-size: 15px;
+}
+
+.services-1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.ft-50{
+    font-size: 50px;
+}
+
+.service-box-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-6{
+    margin-left: 10px;
+}
+
+.description-6 p {
+    margin-top: 10px;
+}
+
+.separator{
+    margin: 30px 0px;
+    border: 0.5px solid #575757;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-space-btween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    background-color: #151515;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;  
+}
+
+.identity{
+    padding: 50px 0px;
+}
+
+
+.behance-button{
+    border: 1px solid #D0D0D0;
+    background-color: inherit;
+    color: inherit;
+    padding: 20px 15px;
+}
+
+.work{
+    padding-bottom: 50px;
+}
+
+.contact-us{
+    text-align: center;
+    padding: 150px 0px ;
+}
+
+.font-85{
+    font-size: 85px;
+}
+
+.font-25{
+    font-size: 25px;
+}
+
+.testing-border{
+    border: 1px solid red;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group{
+    text-align: left;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.input-group > div:first-child{
+    margin-bottom: 80px;
+}
+
+
+.mr-50{
+    margin-right: 50px;
+}
+
+.input-group input{
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    color: inherit;
+    border: none;
+    border-bottom: 1px solid #D0D0D0;
+}
